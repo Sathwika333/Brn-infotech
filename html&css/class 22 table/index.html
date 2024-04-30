@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table{
+            width:100%;
+            border:4px solid black;
+            border-collapse: collapse;
+        }
+        td{
+            text-align: center; 
+            border:3px solid black;
+        }
+        th{
+            color:blue;
+            border:3px solid black;
+            background-color: lightgrey;
+            border-bottom:3px solid pink ;
+        }
+        .sub{
+            text-align: left;
+            color: blue;
+        }
+        .sub:hover{
+            background-color: antiquewhite;
+        }
+        .mark{
+            border-bottom:3px solid pink;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>SECONDARY SCHOOL MARKS</caption>
+        <thead>
+        <tr>
+            <th>SUBJECT</th>
+            <th colspan="2">GRADE(FA&SA)</th>
+            <th>OVERALL GRADE</th>
+            <th>GRADE POINTS</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="sub">FIRST LANGUAGE</td>
+                <td>A1</td>
+                <td>A2</td>
+                <td>A2</td>
+                <td>08</td>  
+            </tr>
+            <tr>
+                <td class="sub">SECOND LANGUAGE</td>
+                <td>A2</td>
+                <td>B1</td>
+                <td>B1</td>
+                <td>08</td>  
+            </tr>
+            <tr>
+                <td class="sub">THIRD LANGUAGE</td>
+                <td>A2</td>
+                <td>B1</td>
+                <td>B1</td>
+                <td>08</td>  
+            </tr>
+            <tr>
+                <td class="sub">MATHEMATICS</td>
+                <td>A1</td>
+                <td>B2</td>
+                <td>B1</td>
+                <td>08</td>  
+            </tr>
+            <tr>
+                <td class="sub">SCIENCE</td>
+                <td>A2</td>
+                <td>B1</td>
+                <td>A2</td>
+                <td>09</td>  
+            </tr>
+            <tr>
+                <td class="sub mark">SOCIAL</td>
+                <td class="mark">A2</td>
+                <td class="mark">A2</td>
+                <td class="mark">A2</td>
+                <td class="mark">09</td>  
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td class="sub">Cummulative Grade Point Average(CGPA)</td>
+                <td colspan="3">8.5</td>
+                <td>8.5</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <table style="margin-top:50px;background-color:lightblue;">
+        <caption>INTERMEDIATE MARKS</caption>
+        <thead>
+            <tr>
+                <th colspan="2"></th>
+                <th>part-1</th>
+                <th>part-2</th>
+                <th colspan="4">part-3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>YEAR</th>
+                <th>SUBJECT</th>
+                <th>ENGLISH</th>
+                <th>SANSKRIT</th>
+                <th>MATHS-(A)</th>
+                <th>MATHS-(B)</th>
+                <th>PHYSICS</th>
+                <th>CHEMISTRY</th>
+            </tr>
+            <tr>
+                <td rowspan="2">1st YEAR</td>
+                <td>MAX MARKS</td>
+                <td colspan="2">100</td>
+                <td colspan="2">75</td>
+                <td colspan="2">60</td>
+            </tr>
+            <tr>
+                <td>MARKS SECURED</td>
+                <td>96</td>
+                <td>96</td>
+                <td>75</td>
+                <td>75</td>
+                <td>60</td>
+                <td>60</td>
+            </tr>
+            <tr>
+                <td rowspan="2">2nd YEAR</td>
+                <td>MAX MARKS</td>
+                <td colspan="2">100</td>
+                <td colspan="2">75</td>
+                <td colspan="2">60</td>
+            </tr>
+            <tr>
+                <td>MARKS SECURED</td>
+                <td>88</td>
+                <td>99</td>
+                <td>75</td>
+                <td>74</td>
+                <td>52</td>
+                <td>58</td>
+            </tr>
+            <tr>
+                <td rowspan="2">PRACTICALS</td>
+                <td>MAX MARKS</td>
+                <td colspan="4"></td>
+                <td colspan="2">30</td>
+            </tr>
+            <tr>
+                <td>MARKS SECURED</td>
+                <td colspan="4"></td>
+                <td colspan="2">30</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>GRAND TOTAL:</td>
+                <td colspan="4">971</td>
+                <td colspan="3">GRAND TOTAL:(in words) *NINE**SEVEN***ONE*</td>
+            </tr>
+        </tfoot>
+
+    </table>
+    
+</body>
+</html>

@@ -1,0 +1,37 @@
+body{
+    background-image: url("./images/body.webp");
+}
+img{
+    width:200px;
+}
+div{
+    border:5px solid black;
+    display: inline-block;
+    padding: 30px;
+    text-align: center;
+    width: 300px;
+    color:beige;
+}
+div p {
+    text-align: justify;
+}
+.v{
+    background: url("./images/12th-fail.jpg") repeat-x;
+    background-size: 200px;
+    background-position:-50px 0px;
+    
+    
+}
+.m{
+    background-image: url("./images/12th-fail.jpg") ;
+    background-size: 200px;
+}
+.a{
+    background-image: url("./images/12th-fail.jpg");
+    background-attachment: fixed;
+    background-size: 600px;
+}
+.s{
+    background-image: url("./images/12th-fail.jpg");
+    background-origin:content-box;
+}

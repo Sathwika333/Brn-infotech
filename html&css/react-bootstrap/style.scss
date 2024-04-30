@@ -1,0 +1,35 @@
+@import "./login";
+@import "./signup";
+
+
+
+
+$bgColor:antiquewhite;
+$fontsize:2rem;
+
+body{
+    background-color:$bgColor;
+}
+
+body{
+    label{
+color: darkblue;
+font-size: $fontsize;
+    }
+
+    form{
+        label{
+color: darkcyan;
+font-size: $fontsize;
+        }
+    }
+
+    form{
+        div{
+            label{
+color: darkgreen;
+font-size: $fontsize;
+            }
+        }
+    }
+}

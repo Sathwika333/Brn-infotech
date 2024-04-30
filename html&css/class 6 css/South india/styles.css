@@ -1,0 +1,25 @@
+#place{
+    background-color:bisque;
+}
+#banglore{
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    text-shadow: 10px 0px 10px black;
+    border:10px dashed lightblue;
+    border-radius: 10px;
+}
+#nh{
+  text-align: center;  
+  color: red;
+}
+#it{
+ text-align: center;  
+  color: red;
+}
+#para{
+    font-family: sans-serif;
+}
+#paragraph{
+    font-family: sans-serif;
+}

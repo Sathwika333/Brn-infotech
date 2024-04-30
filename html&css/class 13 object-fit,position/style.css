@@ -1,0 +1,99 @@
+body{
+    background-color: black;
+}
+img{
+    width:100px;
+    height: 250px;
+    background-color: bisque;
+}
+#one{
+    object-fit: fill;
+}
+#two{
+    object-fit: contain;
+}
+#three{
+    object-fit: cover;
+}
+#four{
+    object-fit: none;
+}
+#five{
+    object-fit: scale-down;
+}
+#dora{
+    padding: 50px;
+}
+#a{
+    width: 100px;
+    height: 700px;
+    object-fit: cover;
+    object-position:1px 0px ;
+}
+#b{
+    width: 100px;
+    height: 700px;
+    object-fit: cover;
+    object-position:-90px 0px ;
+}
+#c{
+    width: 100px;
+    height: 700px;
+    object-fit: cover;
+    object-position:-190px 0px ;
+}
+#d{
+    width: 100px;
+    height: 700px;
+    object-fit: cover;
+    object-position:-295px 0px ;
+}
+#e{
+    width: 100px;
+    height: 700px;
+    object-fit: cover;
+    object-position:-395px 0px ;
+}
+#f{
+    width: 100px;
+    height: 700px;
+    object-fit: cover;
+    object-position:-495px 0px ;
+}
+#g{
+    width: 100px;
+    height: 700px;
+    object-fit: cover;
+    object-position:-595px 0px ;
+}
+
+#h{
+    width: 100px;
+    height: 700px;
+    object-fit: cover;
+    object-position:-695px 0px ;
+}
+#i{
+    width: 100px;
+    height: 700px;
+    object-fit: cover;
+    object-position:-795px 0px ;
+}
+#j{
+    width: 100px;
+    height: 700px;
+    object-fit: cover;
+    object-position:-895px 0px ;
+}
+#k{
+    width: 100px;
+    height: 700px;
+    object-fit: cover;
+    object-position:-995px 0px ;
+}
+#l{
+    width: 100px;
+    height: 700px;
+    object-fit: cover;
+    object-position:-1095px 0px ;
+}
