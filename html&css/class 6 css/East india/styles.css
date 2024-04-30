@@ -1,0 +1,25 @@
+#place{
+    background-color:bisque;
+}
+#sikkim{
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    text-shadow: 10px 0px 10px black;
+    border:10px groove lightblue;
+    border-radius: 10px;
+}
+#gang{
+  text-align: center;  
+  color: red;
+}
+#gl{
+ text-align: center;  
+  color: red;
+}
+#para{
+    font-family:serif;
+}
+#paragraph{
+    font-family:serif;
+}
