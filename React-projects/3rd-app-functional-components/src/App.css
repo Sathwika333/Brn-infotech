@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+  
+}
+
+.main{
+  width:1500px;
+  height:500px;
+  border:5px solid black;
+  margin:5px;
+}
+.main1{
+  background-color: lightblue;
+}
+video{
+  width:620px;
+  margin:2px
+}
+img{
+  width:500px;
+  height:340px;
+  margin:2px
+}
+audio{
+  display:block;
+  margin:2px
+}
+.child{
+  border:4px dotted darkmagenta;
+  display: inline-block;
+  margin:5px;
+}
+.child1{
+  height:345px;
+}

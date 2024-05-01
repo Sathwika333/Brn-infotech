@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+}
+
+
+h1{
+  color:blue;
+  border:3px dashed lightseagreen;
+  border-radius: 50px;
+}
+h1:hover{
+  filter:blur(1px);
+}
+img{
+  width:300px;
+}
+img:hover{
+  filter: drop-shadow(5px 5px 5px black);
+
+}
+form div{
+  display:inline-block;
+  margin:30px;
+}
+/* div{
+  display:inline-block;
+} */
+/* label{
+  width:10px; 
+} */
+form{
+  background-color: lightblue;
+  border: 3px solid black;
+  padding: 5px;
+}
+fieldset{
+  background-color: lightgray;
+  box-shadow: 5px 5px 10px black;
+  margin:10px
+}

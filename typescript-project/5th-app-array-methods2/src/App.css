@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+  width:100%;
+  height: 750px;
+  background: url("https://t4.ftcdn.net/jpg/03/80/74/79/360_F_380747975_sS1hCVB0qPqFCWBMZ3qJ5xTqH6rtaDBI.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+button{
+  font-size: 1rem;
+  margin:5px;
+  position: relative;
+  top:300px
+}
