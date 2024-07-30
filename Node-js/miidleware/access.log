@@ -1,6 +1,0 @@
-::1 - - [30/Mar/2024:07:40:09 +0000] "GET /getGenders HTTP/1.1" 200 92 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"
-::1 - - [30/Mar/2024:07:40:09 +0000] "GET /getAddress HTTP/1.1" 200 8246 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"
-::1 - - [30/Mar/2024:07:40:09 +0000] "GET /getCountry HTTP/1.1" 200 1389 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"
-::1 - - [30/Mar/2024:07:40:09 +0000] "GET /getCountry HTTP/1.1" 200 1389 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"
-::1 - - [30/Mar/2024:07:40:09 +0000] "GET /getAddress HTTP/1.1" 200 8246 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"
-::1 - - [30/Mar/2024:07:40:09 +0000] "GET /getGenders HTTP/1.1" 200 92 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"
